@@ -17,6 +17,6 @@ apt update && apt upgrade -y
 apt install git -y
 _other_installs
 pip3 install -U pip
-git clone $REPO_URL
-cd Testapp
-python3 -m 
+git clone $REPO_URL Github_Repo
+cd Github_Repo
+python3 -m bot
